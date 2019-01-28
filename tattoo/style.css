@@ -16,8 +16,28 @@ html, body {
 }
 .header {
     width:100%;
-    max-height:500px;
+    max-height:530px;
     position: relative;
+}
+
+.headertext {
+    font-size:30px;
+    position:relative;
+    top:5%;
+    color:white;
+}
+
+.collage {
+    margin-left:100px;
+    padding-top:164px;
+}
+
+.column1 img {
+    vertical-align: top;
+}
+
+.column2 img {
+    vertical-align: top;
 }
 
 .navbar {
@@ -26,9 +46,7 @@ html, body {
     height:60px;
     line-height:70px;
 }
-.navitems {
 
-}
 
 .navitems img {
     position: relative;
@@ -57,7 +75,7 @@ html, body {
 }
 .content {
     background-color:gray;
-    height:400px;
+    height:1000px;
 }
 
 .footer {
